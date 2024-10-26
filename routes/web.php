@@ -8,4 +8,4 @@ Route::get('/', function () {
     return to_route('leaderboard');
 });
 
-Route::view('/leaderboard', 'leaderboard');
+Route::view('/leaderboard', 'leaderboard')->name('leaderboard');
